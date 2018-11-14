@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Working With HTML5 Forms</title>
+</head>
+<body>
+
+  <h1>Registration Form</h1>
+  <form action="">
+    <label for="firstName">First Name</label>
+    <input type="text" name="first-name" id="firstName" placeholder="Enter Your First Name..." required autofocus tab>
+    <hr>
+    <label for="lastName">Last Name</label>
+    <input type="text" name="last-name" id="lastName" required placeholder="Enter Your Last Name">
+    <hr>
+    <label for="email">Email</label>
+    <input type="email" name="user-email" id="email" placeholder="Enter Your Email" required>
+    <hr>
+    <label for="phoneNumber">Phone Number</label>
+    <input type="tel" name="phone-number" id="phoneNumber" required placeholder="Enter Phone Number">
+    <hr>
+    <label for="website">Website</label>
+    <input type="url" name="web-site" id="website" placeholder="http://example.com" list="socialmedia">
+    <datalist id="socialmedia">
+      <option value="http://google.com">
+      <option value="http://facebook.com">
+      <option value="http://twitter.com">
+    </datalist>
+    <hr>
+    <label for="age">Age</label>
+    <input type="number" name="user-age" id="age" placeholder="Enter Your Age">
+    <hr>
+    <label for="gender">Male</label>
+    <input type="radio" name="user-gender" id="gender">
+    <label for="gender">Female</label>
+    <input type="radio" name="user-gender" id="gender">
+    <hr>
+    <label for="favcolor">Choose your favorite color</label>
+    <input type="color" name="favorite-color" id="favcolor">
+    <hr>
+    <label for="dob">Date of birth</label>
+    <input type="date" name="dateofbirth" id="dob">
+    <hr>
+    <label for="ct">Current Time</label>
+    <input type="time" name="currenttime" id="ct">
+    <hr>
+    <label for="avatar">Profile Picture</label>
+    <input type="file" name="picture" id="avatar">
+    <hr>
+    <label for="range">Number Range</label>
+    <input type="range" name="number-range" id="range">
+    <hr>
+    <label for="interest">Areas of interest</label>
+    <select name="aoi" id="interest">
+      <option></option>
+      <option value="arts/culture">Arts / Culture</option>
+      <option value="technology">Technology</option>
+      <option value="politics">Politics</option>
+    </select>
+    <hr>
+    <label for="bio">Tell us about yourself</label>
+    <textarea name="about-user" id="bio" cols="30" rows="10" placeholder="say something about yourself"></textarea>
+    <hr>
+    <hr>
+    <label for="username">Username</label>
+    <input type="text" name="user-name" id="username" placeholder="enter username">
+    <hr>
+    <label for="password">Password</label>
+    <input type="password" name="pwd" id="password">
+    <hr>
+    <input type="checkbox" name="termsandconditions" id="autac">
+    <label for="autac">I Accept the terms and conditions</label>
+    <hr>
+    <input type="reset" value="Reset Form">
+    <input type="submit" value="Submit Form">
+  </form>
+  
+</body>
+</html>

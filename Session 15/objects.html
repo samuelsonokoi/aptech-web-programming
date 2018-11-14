@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javascript Objects</title>
+</head>
+<body>
+  
+  <h2>Student Information</h2>
+  <form>
+    <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" focus required onkeyup="onDisplayDetails()" onmouseover="changeStyle()" onmouseout="resetStyle()">
+    <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required onkeyup="onDisplayDetails()">
+    <input type="email" name="email" id="email" placeholder="Enter your email" required onkeyup="onDisplayDetails()">
+    <input type="text" name="age" id="age" placeholder="Enter your age" required onkeyup="onDisplayDetails()">
+    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Enter your phone number" required onkeyup="onDisplayDetails()">
+
+    <input type="button" value="Display Details" onclick="onDisplayDetails()">
+  </form>
+
+  <code id="displayDetails"></code>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

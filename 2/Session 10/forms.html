@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 Forms</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <h1>User Details</h1>
+
+  <form action="forms.html" method="get">
+    <label for="fullName">Full Name</label>
+    <input type="text" name="user-fullName" id="fullName" placeholder="Enter your full name." required autofocus />
+
+    <label for="email">Email</label>
+    <input type="email" name="user-email" id="email" placeholder="johndoe@example.com" required minlength="5" maxlength="50" autocomplete="on" />
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="user-phoneNumber" id="phone" minlength="11" maxlength="11" required />
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="user-dob" id="dob" min="2000-01-01" />
+
+    <label for="website">Website</label>
+    <input type="url" name="user-website" id="website" placeholder="http://example.com" />
+
+    <label for="favNumber">Favorite Number</label>
+    <input type="number" name="user-favNumber" id="favNumber" max="100" step="5" />
+
+    <label for="range">Range Number</label>
+    <input type="range" name="user-range" id="range" min="1" max="20" />
+
+    <label for="bMonth">Birth Month</label>
+    <input type="month" name="user-bMonth" id="bMonth" />
+
+    <label for="week">Favorite Week</label>
+    <input type="week" name="user-week" id="week" />
+
+    <label for="currentTime">Current Time</label>
+    <input type="time" name="user-currentTime" id="currentTime" />
+
+    <label for="dateTime">Date and Time</label>
+    <input type="datetime" name="user-dateTime" id="dateTime" />
+
+    <label for="favColor">Favorite Color</label>
+    <input type="color" name="user-favColor" id="favColor" />
+
+    Female <input type="radio" name="gender" value="Female" checked />
+    <br>
+    Male <input type="radio" name="gender" value="Male" />
+
+    <label for="image">Choose your image</label>
+    <input type="file" name="user-file" id="image" />
+
+    <label for="favFood">Favorite Food</label>
+    <input type="text" name="user-favFood" id="favFood" placeholder="Rice, Beans, Eba" multiple />
+
+    <label for="courses">Courses</label>
+    <input type="text" name="user-courses" id="courses" list="course-list">
+    <datalist id="course-list">
+      <option value="HTML5">
+      <option value="CSS3">
+      <option value="Javascript">
+      <option value="jQuery">
+    </datalist>
+
+    <input type="hidden" name="user-hidden" placeholder="this input will not be visible" />
+
+    <br>
+    <label for="days">Days</label>
+    <select name="user-days" id="days" multiple>
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+      <option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option>
+    </select>
+
+    <br>
+    <label for="friendOne">Friend One</label>
+    <input type="checkbox" name="user-friendOne" id="friendOne" checked>
+    <label for="friendTwo">Friend Two</label>
+    <input type="checkbox" name="user-friendTwo" id="friendTwo">
+
+    <label for="password">Password</label>
+    <input type="password" name="user-password" id="password">
+
+    <!-- This button will reset all fields -->
+    <input type="reset" value="Clear All Fields" />
+
+    <!-- This button will submit the form -->
+    <input type="submit" value="Submit The Form" />
+  </form>
+  
+</body>
+</html>

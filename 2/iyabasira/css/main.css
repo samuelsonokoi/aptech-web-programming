@@ -1,0 +1,80 @@
+.top-bottom-padding {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.bg-dark {
+  background-color: #eee !important;
+}
+
+section div.transparent-bg {
+  background: linear-gradient( rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705) );
+}
+
+div#slider {
+  min-height: 100vh;
+}
+
+section.latestdishes {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+div.title hr {
+  margin-bottom: 3em;
+  width: 40%;
+  background-color: #d58837;
+  padding: 1px;
+}
+
+section.latestdishes {
+  background-color: #eee;
+}
+
+section.latestdishes .card {
+  margin-bottom: 2em;
+}
+
+div.cta {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+div.cta .btn-lg {
+  border-radius: 0px;
+  padding: 1em;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #d58837;
+  border-color: #d58837;
+}
+
+footer.footer {
+  padding-top: 3em;
+  background-color: #d58837;
+  color: #eee;
+}
+
+footer li.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+li.list-group-item a {
+  text-decoration: none;
+  color: #eee;
+}
+
+div.copyright {
+  padding-top: 1em;
+}
+
+div.copyright .text-muted {
+  color: #eee !important;
+}
+
+/* About Page */
+
+/* About Page Ends */

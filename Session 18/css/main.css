@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+input {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 0px;
+  background-color: #0d4fb1;
+  color: #fff;
+  margin: 0px auto;
+
+}

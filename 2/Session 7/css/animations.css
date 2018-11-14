@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  top: 0;
+  position: absolute;
+  animation-name: bounce;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* defining a new keyframe */
+@keyframes change-border-color {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+/* defining another keyframe */
+@keyframes bounce {
+  10% {
+    background-color: blue;
+    top: 0px;
+  }
+  50% {
+    background-color: #882a0e;
+    top: 150px;
+  }
+  100% {
+    background-color: darkcyan;
+    top: 0px;
+  }
+}

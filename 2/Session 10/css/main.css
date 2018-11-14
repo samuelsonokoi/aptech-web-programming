@@ -1,0 +1,14 @@
+input {
+  padding: 3px;
+  color: blue;
+  display: block;
+}
+
+label {
+  margin-top: 1em;
+}
+
+input[type="file"] {
+  background: blue;
+  color: aliceblue;
+}

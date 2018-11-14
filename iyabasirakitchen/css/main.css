@@ -1,0 +1,311 @@
+/* 
+  Iyabasira Kitchen Css 
+  Class Project January 2018
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+section.header {
+  min-height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.438) ), url("../media/images/iyabasirakitchenbg.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header .top-header {
+  width: auto;
+  height: 20px;
+  padding: 3px 20px 3px 20px;
+  background-color: transparent;
+  color: #eee;
+  border-bottom: 1px;
+  border-bottom-color: #eee;
+  border-bottom-style: solid;
+}
+.header .top-header ul.left {
+  float: left;
+}
+.header .top-header ul.left li {
+  display: inline-block;
+  margin-right: 5px;
+  list-style: none;
+}
+.header .top-header ul.right {
+  float: right;
+}
+.header .top-header ul.right li {
+  display: inline-block;
+  margin-right: 5px;
+  list-style: none;
+}
+/* End of header styles */
+
+/* Hero styles */
+div.hero .logo-container {
+  max-width: 37%;
+  height: auto;
+  margin: 0px auto;
+  padding: 10px 10px 10px 13px;
+  border: 1px dotted #eee;
+  border-top-style: none;
+  text-align: center;
+}
+div.hero .logo-container a img {
+  width: 350px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+div.hero .logo-container h1 {
+  color: #eee;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+div.hero .logo-container small {
+  color: #eee;
+  font-variant: small-caps;
+}
+div.hero nav.left-main-nav {
+  position: absolute;
+  top: 7em;
+  left: 8em;
+}
+div.hero nav.right-main-nav {
+  position: absolute;
+  top: 7em;
+  left: 43em;
+}
+div.hero nav.left-main-nav ul li {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+  color: #eee;
+  font-size: 40px;
+  border: 1px solid #fff;
+  min-height: 3em;
+  text-align: center;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671) ); */
+  transition: all .5s;
+}
+div.hero nav.right-main-nav ul li {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+  color: #eee;
+  font-size: 40px;
+  border: 1px solid #fff;
+  min-height: 3em;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+div.hero nav.left-main-nav ul li:hover {
+  border: 1px dotted rgba(138, 10, 10, 0.418);
+  background-color: rgba(138, 10, 10, 0.418);
+  color: #eee;
+}
+div.hero nav.left-main-nav ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+div.hero nav.right-main-nav ul li:hover {
+  border: 1px dotted rgba(138, 10, 10, 0.418);
+  background-color: rgba(138, 10, 10, 0.418);
+  color: #eee;
+}
+div.hero nav.right-main-nav ul li a {
+  color: #eee;
+  text-decoration: none;
+}
+/* end Hero styles */
+
+/* Featured Category */
+section.featured-category {
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 2em 1em;
+}
+section.featured-category .page-header{
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  width: 20em;
+  margin: 2em auto;
+  padding: 5px;
+}
+section.featured-category .page-header h1{
+  color: #000;
+  text-align: center;
+  font-size: 2em;
+}
+section.featured-category .page-header p{
+  color: #000;
+  text-align: center;
+}
+section.featured-category h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  padding: 3px;
+  border-left: 5px solid #000;
+}
+section.featured-category img {
+  display: inline-block;
+  margin: 0 0 1em 1em;
+  width: 200px;
+  height: 150px;
+}
+/* End Featured Category */
+
+/* Yaba Chef */
+section.yabachef {
+  min-height: 100vh;
+  overflow: hidden;
+}
+section.yabachef div {
+  display: inline-block;
+}
+section.yabachef div.yaba1 {
+  width: 480px;
+  height: 480px;
+  margin-top: 95px;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
+  transform: rotate(-40deg);
+  /* background-color: #eee; */
+}
+
+section.yabachef div.yaba1 img {
+  width: 350px;
+  height: 350px;
+  transform: rotate(40deg);
+  margin-left: 3em;
+}
+section.yabachef div.yaba2 {
+  width: 380px;
+  height: 480px;
+  margin-top: 95px;
+  position: absolute;
+  left: 35em;
+}
+section.yabachef div.yaba2 h1{
+  color: #000;
+  text-align: right;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+section.yabachef div.yaba2 p{
+  font-size: 2em;
+  line-height: 35px;
+  text-align: right;
+}
+section.yabachef div.yaba2 button {
+  padding: 1em;
+  border-radius: 0px;
+  font-size: 1em;
+  margin: 1em 1em 0 15em;
+  background-color: rgb(138, 10, 10);
+  color: #eee;
+  border: 1px solid transparent;
+  transition: .5s all;
+}
+section.yabachef div.yaba2 button:hover {
+  background-color: transparent;
+  color: rgb(138, 10, 10);
+  border: 1px solid rgb(138, 10, 10);
+}
+/* End Yaba Chef */
+
+/* Sira Chef */
+section.sirachef {
+  min-height: 100vh;
+  overflow: hidden;
+}
+section.sirachef div {
+  display: inline-block;
+  /* overflow: hidden; */
+}
+section.sirachef div.sira1 {
+  width: 500px;
+  height: 500px;
+  margin-top: 95px;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(140deg);
+  position: absolute;
+  left: 35em;
+}
+
+section.sirachef div.sira1 img {
+  width: 350px;
+  height: 350px;
+  transform: rotate(-140deg);
+  margin-left: 3em;
+}
+section.sirachef div.sira2 {
+  width: 380px;
+  height: 480px;
+  margin-top: 95px;
+  padding-left: 2em;
+}
+section.sirachef div.sira2 h1{
+  color: #000;
+  text-align: left;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+section.sirachef div.sira2 p{
+  font-size: 2em;
+  line-height: 35px;
+  text-align: left;
+}
+section.sirachef div.sira2 button {
+  padding: 1em;
+  border-radius: 0px;
+  font-size: 1em;
+  margin: 1em 1em 0 1em;
+  background-color: rgb(138, 10, 10);
+  color: #eee;
+  border: 1px solid transparent;
+  transition: .5s all;
+}
+section.sirachef div.sira2 button:hover {
+  background-color: transparent;
+  color: rgb(138, 10, 10);
+  border: 1px solid rgb(138, 10, 10);
+}
+/* End Sira Chef */
+
+/* Order */
+section.order {
+  padding: 1em 5em;
+  text-align: center;
+  background-color: rgb(138, 10, 10);
+}
+
+section.order h1 {
+  color: #fff;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+section.order button {
+  padding: 1em;
+  border-radius: 0px;
+  font-size: 1em;
+  margin: 1em 1em 0 1em;
+  background-color: #fff;
+  color: rgb(138, 10, 10);
+  border: 1px solid transparent;
+  transition: .5s all;
+}
+section.order button:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+/* end order */

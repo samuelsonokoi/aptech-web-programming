@@ -1,0 +1,25 @@
+body {
+  padding: 0px;
+}
+
+section {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffe4b5;
+}
+
+.second-section {
+  color: green;
+  background-color: grey;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  text-decoration: overline;
+  color: chocolate;
+}
+
+/* p{
+  color: blue;
+} */
