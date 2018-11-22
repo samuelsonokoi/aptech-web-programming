@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>javascript Functions</title>
+</head>
+<body>
+  <h1>Calculator Program</h1>
+
+  <div class="input">
+    <label for="first">Enter a number</label>
+    <input type="number" id="first" />
+  </div>
+
+  <div class="input">
+    <label for="second">Enter a second number</label>
+    <input type="number" id="second" />
+  </div>
+
+  <div class="input">
+    <label for="choice">What would you like to do</label>
+    <select id="choice">
+      <option value="multiply">Multiplication</option>
+      <option value="divide">Division</option>
+      <option value="subtract">Subtraction</option>
+      <option value="add">Addition</option>
+    </select>
+  </div>
+  
+  <div class="input">
+    <button onclick="calculate()">Calculate</button>
+  </div>
+
+  <h2 id="result"></h2>
+
+
+  <script src="./js/function.js"></script>
+</body>
+</html>
