@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Session Storage</title>
+
+  <link rel="stylesheet" href="./css/session-storage.css">
+</head>
+<body>
+  <h2>HTML5 Session Storage</h2>
+
+  <input type="text" id="name" placeholder="Enter your name">
+  <input type="email" id="email" placeholder="Enter your email">
+  <input type="number" id="age" placeholder="How old are you">
+
+  <button onclick="save()" >Save To Storage</button>
+  <button onclick="display()" >Display From Storage</button>
+  <button onclick="remove()" >Remove From Storage</button>
+  <button onclick="clear()" >Clear Session Storage</button>
+
+  <h2 id="result"></h2>
+
+  <script src="./js/session-storage.js"></script>
+</body>
+</html>
